@@ -1,0 +1,127 @@
+#box_1{
+  background-color: #fff;
+}
+#awesome-title-1{
+  text-align: center;
+  font-size: 50px;
+  line-height: 100vh;
+  font-family: Arial black;
+  background: -webkit-linear-gradient(left, #ff4000 0%, #00ffff 100%);
+  background: linear-gradient(to right, #ff4000 10%, #00ffff 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#box_2{
+  background-color: #fff;
+}
+#awesome-title-2{
+  text-align: center;
+  font-size: 200px;
+  line-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('forms.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#box_3{
+  background-color: #fff;
+}
+#awesome-title-3{
+  text-align: center;
+  font-size: 200px;
+  line-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  -webkit-text-fill-color: white;
+  background-image: url('other_other_ilusion.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 5px transparent;
+  -webkit-text-fill-color: #000;
+}
+#box_4{
+  background-color: #fff;
+}
+#awesome-title-4{
+  text-align: center;
+  font-size: 200px;
+  line-height: 100vh;
+  font-family: 'Oswald', sans-serif;
+  background-image: url('other_ilusion.gif');
+  background-repeat: repeat;
+  background-position: center;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#box_5{
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#awesome-title-5{
+  font-size: 200px;
+  font-family: arial black;
+  background-image: url('pelo.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
+
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 5px rgba(0,0,0,0.1);
+  -webkit-text-fill-color: transparent;
+  text-shadow: -33px 29px 20px rgba(0,0,0,0.2);
+}
+#box_6{
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#awesome-title-6{
+  font-size: 200px;
+  font-family: 'Oswald', sans-serif;
+  background-image: url('mosaic.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box-title{
+  box-shadow: 0 -3px 22px 0 rgba(0,0,0,0.1), 0 2px 40px 0 rgba(0,0,0,0.1);
+  border-radius: 5px;
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+#box_7{
+  background-color: #000;
+}
+#awesome-title-7{
+  font-size: 200px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  line-height: 100vh;
+  color: #002233;
+  animation: neon 3s alternate infinite ease-in-out;
+}
+@keyframes neon {
+  from{
+    filter: drop-shadow(0 0 0 #000);
+    color: #00111a;
+  }
+  to{
+    filter: drop-shadow(0 0 1px #0088cc);
+    color: #002233;
+  }
+}
